@@ -3,11 +3,6 @@
 Unitree G1 в RViz2: модель повторяет позу робота, вокруг облако точек с Livox Mid-360.
 
 <img width="591" height="1280" alt="rviz_2" src="https://github.com/user-attachments/assets/21de1369-017a-4b64-aa96-67140bfa25fb" />
-<img width="591" height="1280" alt="rviz_2" src="https://github.com/user-attachments/assets/4a4bcd63-a0a1-40c0-a4d8-c288e2ae183d" />
-<img width="591" height="1280" alt="rviz_2" src="https://github.com/user-attachments/assets/e96538e3-57e8-495c-a2a0-8f6b5dddd05c" />
-<img width="591" height="1280" alt="rviz_2" src="https://github.com/user-attachments/assets/c5f08aa9-408e-4b46-95b5-3ff05856c5d9" />
-<img width="591" height="1280" alt="rviz_2" src="https://github.com/user-attachments/assets/57eefe27-f225-4edc-a1bc-2c19277c77c3" />
-<img width="591" height="1280" alt="rviz_3" src="https://github.com/user-attachments/assets/c92a3d0d-cc71-4b28-bbe3-9a26cbaa631e" />
 
 
 Робот отдаёт состояние в `unitree_hg/LowState`, а `robot_state_publisher` его не понимает. Мост переводит одно в другое.
@@ -22,10 +17,7 @@ ros2 launch g1_rviz_bridge g1_rviz.launch.py
 Поднимает мост, `robot_state_publisher`, трансформ до лидара и RViz.
 
 
-<img width="591" height="1280" alt="rviz_2" src="https://github.com/user-attachments/assets/c01b4b15-bf26-4e59-926e-cd16ae549fa5" /><img width="591" height="1280" alt="rviz_1" src="https://github.com/user-attachments/assets/bbc774c2-f3b5-44e2-8e3f-a18b86ffd42d" />
-<img width="591" height="1280" alt="rviz_1" src="https://github.com/user-attachments/assets/2b52f79e-725b-4e7d-9a0f-5a0288cc7d6b" />
-<img width="591" height="1280" alt="rviz_1" src="https://github.com/user-attachments/assets/958def97-4db7-4531-96a4-5e55d94b8421" />
-<img width="591" height="1280" alt="rviz_1" src="https://github.com/user-attachments/assets/2be19494-29bc-4931-a9ee-6acf87aec1b1" />
+<img width="591" height="1280" alt="rviz_3" src="https://github.com/user-attachments/assets/0742b8c2-2a9e-4e29-a78e-eac541bbda12" />
 
 
 ## Что нужно
