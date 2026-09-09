@@ -54,6 +54,4 @@ sed 's|filename="meshes/|filename="file:///путь/meshes/|g' g1_29dof.urdf > g
 
 **RViz на другой машине.** Если multicast не проходит, указать адрес робота явно через `CYCLONEDDS_URI` с `<Peers>`. Конфиг нужен на обеих машинах.
 
-## Лицензия
 
-MIT
